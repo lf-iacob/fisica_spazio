@@ -47,9 +47,9 @@ def gyration(B, q, m, v0_x, v0_y, v0_z, N):
     z=vz*time
         
     #VELOCITÀ
-    print('Rispondere alle domande con y/Y')
+    print('Rispondere alle domande con y/N')
     vis_vel=input('Visualizzare i grafici di velocità? ')
-    if((vis_vel=='y') | (vis_vel=='Y')):
+    if(vis_vel=='y')):
         print('GRAFICI DI VELOCITÀ')
         print('Velocità ortogonale')
         plt.figure(figsize=(8,8))
@@ -89,7 +89,7 @@ def gyration(B, q, m, v0_x, v0_y, v0_z, N):
 
     #POSIZIONE
     vis_pos=input('Visualizzare i grafici di posizione? ')
-    if((vis_pos=='y')| (vis_pos=='Y')):
+    if(vis_pos=='y')):
         print('GRAFICI DI POSIZIONE')
         print('Proiezione ortogonale della traiettoria')
         plt.figure(figsize=(8,8))
@@ -163,9 +163,9 @@ def drift_exb(E, B, q, m, v0_x, v0_y, v0_z, N):
     z=vz*time
         
     #VELOCITÀ
-    print('Rispondere alle domande con y/Y')
+    print('Rispondere alle domande con y/N')
     vis_vel=input('Visualizzare i grafici di velocità? ')
-    if((vis_vel=='y') | (vis_vel=='Y')):
+    if(vis_vel=='y'):
         print('GRAFICI DI VELOCITÀ')
         print('Velocità ortogonale')
         plt.figure(figsize=(8,8))
@@ -208,7 +208,7 @@ def drift_exb(E, B, q, m, v0_x, v0_y, v0_z, N):
 
     #POSIZIONE
     vis_pos=input('Visualizzare i grafici di posizione? ')
-    if((vis_pos=='y') | (vis_pos=='Y')):
+    if(vis_pos=='y'):
         print('GRAFICI DI POSIZIONE')
         print('Proiezione ortogonale della traiettoria')
         plt.figure(figsize=(8,8))
@@ -286,9 +286,9 @@ def drift_gradb(grad, B, q, m, v0_x, v0_y, v0_z, N):
     z=vz*time
         
     #VELOCITÀ
-    print('Rispondere alle domande con y/Y')
+    print('Rispondere alle domande con y/N')
     vis_vel=input('Visualizzare i grafici di velocità? ')
-    if((vis_vel=='y') | (vis_vel=='Y')):
+    if(vis_vel=='y'):
         print('GRAFICI DI VELOCITÀ')
         print('Velocità ortogonale')
         plt.figure(figsize=(8,8))
@@ -331,7 +331,7 @@ def drift_gradb(grad, B, q, m, v0_x, v0_y, v0_z, N):
 
     #POSIZIONE
     vis_pos=input('Visualizzare i grafici di posizione? ')
-    if((vis_pos=='y') | (vis_pos=='Y')):
+    if(vis_pos=='y'):
         print('GRAFICI DI POSIZIONE')
         print('Proiezione ortogonale della traiettoria')
         plt.figure(figsize=(8,8))
